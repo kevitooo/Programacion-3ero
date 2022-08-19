@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(fondo.png);
+}
+
+.contenedor {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*height: 100vh; vh = view port height*/
+}
+
+.entrada {
+	outline: 0;
+	border-radius: 4px;
+	width: 50vw;
+	height: 50px;
+	padding-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 15px;
+	border-color: black;
+	box-shadow: 3px 3px 3px black;
+	font-size: 25px;
+}
+
+.btn-enviar {
+	border-radius: 20px;
+	width: 50vw;
+	height: 60px;
+	padding-left: 20px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	box-shadow: 3px 3px 3px gray;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+	text-shadow: 2px 2px 2px white;
+}
+
+.titulos {
+	font-size: 25px;
+	color: white;
+	text-shadow: 3px 3px 3px black;
+}

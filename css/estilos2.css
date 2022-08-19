@@ -1,0 +1,40 @@
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 50vw;
+	height: 50vh;
+	font-family: arial;
+	font-size: 12pt;
+}
+
+tr, th, td {
+	border: 1px solid black;
+}
+
+.encabezado-h {
+	background-color: red;
+	color: white;
+	font-size: 14pt;
+}
+
+.encabezado-v {
+	background-color: green;
+	color: white;
+	font-size: 14pt;
+}
+
+.encabezados {
+	background-color: teal;
+	color: white;
+}
+
+.datos {
+	background-color: blue;
+	color: white;
+	text-align: center;
+}
+
+.texto-vertical {
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+}

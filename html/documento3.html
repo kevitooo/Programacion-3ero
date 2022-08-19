@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>autoImgFlip</title>
+	<script language="javascript">
+		var step = 0;
+		function autoImgFlip() {
+			setTimeout("autoImgFlip()", 3000);
+
+			if (step == 0){
+				a.src = "../imgs/chicago.jpg";
+			}
+			if (step == 1){
+				a.src = "../imgs/apple-logo.png";
+			}
+			if (step == 2){
+				a.src = "../imgs/development.png";
+			}
+			if (step == 3){
+				a.src = "../imgs/fondo.png";
+			}
+			if (step < 3) {
+				step++;
+			}
+			else {
+				step = 0;
+			}
+		}
+	</script>
+</head>
+<body onload="autoImgFlip();">
+	<div id="imagen">
+		<img src="../imgs/chicago.jpg" id="a" width="250px" height="160px" alt="">
+	</div>
+</body>
+</html>

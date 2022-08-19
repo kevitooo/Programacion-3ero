@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Javascript</title>
+</head>
+<body>
+	<p id="p1">Este es un ejemplo de Javascript</p>
+	<p id="p2">Este es otro parrafo</p>
+
+	<script>
+		let parrafo = document.querySelector("p");
+		let parrafo2 = document.getElementsByTagName("p");
+		let parrafo3 = document.getElementById("p1");
+		console.log(parrafo3.innerHTML);
+		alert(parrafo.innerHTML);
+		console.log(parrafo2[0].innerHTML);
+		console.log(parrafo2[1].innerHTML);
+		parrafo.innerHTML = "Estoy modificando mi parrafo";
+		console.log(parrafo3.innerHTML);
+		let sueldo = prompt("Ingrese su sueldo: ");
+		let bonus = prompt("Ingrese un bonus: ");
+		let resultado = parseFloat(sueldo) + parseFloat(bonus);
+		document.write("El importe final es: " + resultado);
+	</script>
+</body>
+</html>

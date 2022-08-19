@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Proc</title>
+</head>
+<body>
+	<div style="background-color: black; color: white; height: 300px; font-size: 18pt; padding: 5px;">
+		<p>Bienvenido <?php echo htmlspecialchars($_POST['nombre']); ?>
+		<?php echo htmlspecialchars($_POST['apellido']); ?>.
+		</p>
+		<p>Ud tiene <?php echo (int)$_POST['edad'];?> años.</p>
+		<p>
+		<?php echo htmlspecialchars($_POST['apellido']); ?>.
+		</p>
+		<p>Bienvenido <?php echo htmlspecialchars($_POST['nombre']); ?>
+		<?php echo htmlspecialchars($_POST['apellido']); ?>.
+		</p>
+		<p>Bienvenido <?php echo htmlspecialchars($_POST['nombre']); ?>
+		<?php echo htmlspecialchars($_POST['apellido']); ?>.
+		</p>
+	</div>
+
+	<section>
+		<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Doloremque earum veritatis doloribus quia, et maiores perspiciatis temporibus culpa sequi, modi ullam, in esse illo quaerat! Magnam, quod voluptatem eius quae.</p>
+	</section>
+</body>
+</html>

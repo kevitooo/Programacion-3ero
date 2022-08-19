@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formularios</title>
+	<link rel="stylesheet" href="../css/estiloFormulario.css">
+</head>
+<body>
+	<div class="contenedor">
+		<!--<form action="" method="get"></form>-->
+		<form action="https://postman-echo.com/post" method="post">
+			
+			<span class="titulos">Nombre:</span> <br>
+			<input class="entrada" type="text" name="nombre" placeholder="Ingrese su nombre"><br>
+
+			<span class="titulos">Edad:</span> <br>
+			<input class="entrada" type="number" name="edad" required> <br>
+
+			<span class="titulos">Email:</span> <br>
+			<input class="entrada" type="Email" name="email"> <br>
+			
+			<span class="titulos">Contraseña:</span> <br>
+			<input class="entrada" type="password" name="password"> <br>
+			
+			Notas: <br>
+			<textarea name="notas" cols="30" rows="10"></textarea> <br>
+			
+			Género: <br>
+			<input type="radio" name="genero" value="masculino"> MASCULINO <br>
+			<input type="radio" name="genero" value="femenino" checked> FEMENINO <br>
+			<br>
+
+			Educación: <br>
+			<input type="checkbox" name="primaria" checked> PRIMARIA <br>
+			<input type="checkbox" name="primaria" checked> SECUNDARIA <br>
+			<input type="checkbox" name="primaria" checked> TERCIARIA <br>
+			<br>
+
+			Vehículo: <br>
+			<select name="vehiculo">
+				<option value="ford">FORD</option>
+				<option value="fiat">FIAT</option>
+				<option value="renault" selected>RENAULT</option>
+				<option value="vw">VW</option>
+			</select>
+			<br>
+			<br>
+
+			Valor: <br>
+			<input type="range" name="valor">
+			<br>
+			<br>
+
+			Fecha: <br>
+			<input type="date" name="fecha">
+			<br>
+
+			<br>
+			<br>
+			<label for="mylife">Seleccione un archivo
+				<input type="file" id="mylife" name="mylife" multiple>
+			</label>
+			<br>
+			<br>
+
+
+			<!-- BOTON DE ENVÍO -->
+			<input class="btn-enviar" type="submit" value="Enviar">
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+#p1{
+	background-image: url(https://mdn.mozillademos.org/files/12057/starsolid.gif);
+}
+
+#p2{
+	color: green;
+	font-size: 14pt;
+	width: 40%;
+	height: 20vh;
+	/*overflow:  hidden;*/
+	overflow-y: auto;
+	/*background-image: url("https://mdn.mozillademos.org/files/12059/startransparent.gif");*/
+	background-image: url(https://mdn.mozillademos.org/files/12057/starsolid.gif);
+	background-repeat: repeat;
+}
