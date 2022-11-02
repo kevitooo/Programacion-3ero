@@ -12,5 +12,5 @@ $(document).ready(function(){
 $('#boton').click(function(event){
     //$('.panel').toggle()
     //$('.panel').fadeToggle()
-    $('$#contenedor').fadeToggle(2000)
+    $('#contenedor').fadeToggle(2000)
 })
